@@ -1,17 +1,18 @@
 {
-  "name": "Travel desk Automation",
-  "description": "mmt automation Process",
+  "name": "DataScrapping_NextPage_logic",
+  "description": "DataScrapping_NextPage_logic",
   "main": "Main.xaml",
   "dependencies": {
-    "UiPath.Excel.Activities": "[2.8.3-beta.851189]",
-    "UiPath.IntelligentOCR.Activities": "[4.5.0-beta.857685]",
-    "UiPath.Mail.Activities": "[1.8.3-beta.850998]",
-    "UiPath.System.Activities": "[20.4.0-beta.850545]",
-    "UiPath.UIAutomation.Activities": "[20.4.0-beta.853586]"
+    "BalaReva.DataTable.Activities": "[2.0.2]",
+    "UiPath.Database.Activities": "[1.3.7369.25200]",
+    "UiPath.Excel.Activities": "[2.8.2-preview]",
+    "UiPath.Mail.Activities": "[1.8.2-preview]",
+    "UiPath.System.Activities": "[20.3.0-preview]",
+    "UiPath.UIAutomation.Activities": "[20.3.0-alpha]"
   },
   "webServices": [],
   "schemaVersion": "4.0",
-  "studioVersion": "20.4.0.0",
+  "studioVersion": "20.3.0.84",
   "projectVersion": "1.0.0",
   "runtimeOptions": {
     "autoDispose": false,
