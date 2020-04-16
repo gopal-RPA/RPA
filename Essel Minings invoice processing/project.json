@@ -1,0 +1,40 @@
+{
+  "name": "Essel Mining invoice processing",
+  "description": "project for Essel Mining invoice processing",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.DocumentProcessing.Contracts": "[1.6.1-beta.835376]",
+    "UiPath.DocumentUnderstanding.ML.Activities": "[1.0.1]",
+    "UiPath.Excel.Activities": "[2.7.1-ce]",
+    "UiPath.IntelligentOCR.Activities": "[4.5.0-beta.878183]",
+    "UiPath.MachineLearningExtractor": "[1.1.1-preview]",
+    "UiPath.OmniPage.Activities": "[1.5.0-beta.853556]",
+    "UiPath.System.Activities": "[19.7.0]",
+    "UiPath.UIAutomation.Activities": "[20.4.0-beta.853586]"
+  },
+  "webServices": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "20.4.0.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "isPausable": true,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "fileInfoCollection": []
+  },
+  "expressionLanguage": "VisualBasic"
+}
