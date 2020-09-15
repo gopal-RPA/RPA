@@ -1,6 +1,6 @@
 {
-  "name": "EwayBillDataScrapping",
-  "description": "Process For Data scrapping from EwayBill website and store into database.",
+  "name": "Amazon comment scrapping",
+  "description": "Amazon comment scrapping",
   "main": "Main.xaml",
   "dependencies": {
     "UiPath.Excel.Activities": "[2.8.3-beta.851189]",
