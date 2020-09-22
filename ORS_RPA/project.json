@@ -1,9 +1,8 @@
 {
-  "name": "I3MS_FORM_F1",
-  "description": "Process For Form F1 in i3ms portal",
+  "name": "ORS_RPA",
+  "description": "Blank Process",
   "main": "Main.xaml",
   "dependencies": {
-    "UiPath.Database.Activities": "[1.3.7369.25200]",
     "UiPath.Excel.Activities": "[2.9.1-preview]",
     "UiPath.Mail.Activities": "[1.9.1-preview]",
     "UiPath.System.Activities": "[20.8.0-preview]",
@@ -15,7 +14,6 @@
   "studioVersion": "20.6.0.0",
   "projectVersion": "1.0.1",
   "runtimeOptions": {
-    "exceptionHandlerWorkflow": "GlobalHandler.xaml",
     "autoDispose": false,
     "isPausable": true,
     "requiresUserInteraction": true,
@@ -24,9 +22,7 @@
       "Private:*",
       "*password*"
     ],
-    "executionType": "Workflow",
-    "readyForPiP": false,
-    "startsInPiP": false
+    "executionType": "Workflow"
   },
   "designOptions": {
     "projectProfile": "Developement",
@@ -35,27 +31,12 @@
       "includeOriginalXaml": false,
       "privateWorkflows": []
     },
-    "processOptions": {
-      "ignoredFiles": []
-    },
-    "fileInfoCollection": [],
-    "modernBehavior": false
+    "fileInfoCollection": []
   },
   "arguments": {
     "input": [],
-    "output": [
-      {
-        "name": "prevMonth",
-        "type": "System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"
-      },
-      {
-        "name": "DATATABLE_ROW_COUNT",
-        "type": "System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"
-      }
-    ]
+    "output": []
   },
   "expressionLanguage": "VisualBasic",
-  "isTemplate": false,
-  "templateProjectData": {},
-  "publishData": {}
+  "isTemplate": false
 }
